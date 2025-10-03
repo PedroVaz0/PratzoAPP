@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+:root {
+    --fonte-padrao: 'DynaPuff', system-ui;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-padrao);
+    text-decoration: none;
+}
+
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #dfc9c9d0;
+}
+
+h1{
+    font-size: 80px;
+    color: #d82727;
+}
+
+.bemvindo{
+    margin-bottom: 40px;
+    color: #0f830f;
+    font-size: 40px;
+}
+
+.regis{
+    font-size: 35px;
+    color: #d82727;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    border: solid black 1px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #f5efef;
+}
+
+input{
+    width: 60vw;
+    max-width: 600px;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 5px ;
+}
+
+label{
+    text-align: left;
+    margin-top: 30px;
+}
+
+.logar{
+    font-size: 15px;
+}
+
+.btn{
+    margin-top: 20px;
+    max-width: 600px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color:#d82727;
+}
+

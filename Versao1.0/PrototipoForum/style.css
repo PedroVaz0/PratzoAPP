@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+:root {
+    --fonte-padrao: 'DynaPuff', system-ui;
+    --cor01: #d82727;
+    --cor02: #0f830f;
+    --cor03: rgb(37, 95, 37);
+    --cor04: rgb(155, 12, 12);
+    --cor05: #dfc9c9d0;
+    --cor06: #f7e9e9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-padrao);
+}
+
+body {
+    background-color: #dfc9c9d0;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 80px;
+    padding: 10px 0px;
+    background-color: var(--cor01);
+    box-shadow: 0px 0px 6px 0px rgb(0, 0, 0);
+}
+
+nav a{
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+nav .logo{
+    color: var(--cor06);
+    text-decoration: none;
+}
+
+nav input {
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: auto;
+    height: 50%;
+    width: 35vw;
+    vertical-align: middle;
+    padding-left: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.575);
+}
+
+nav img {
+    height: 90%;
+    background-color: #f7e9e9;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+header h1 {
+    margin-top: 30px;
+    color: var(--cor01);
+}
+
+header p {
+    color: #0f830f;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.novo {
+    display: flex;
+    color: var(--cor04);
+    border: 3px solid var(--cor03);
+    border-radius: 30px;
+    width: 230px;
+    align-items: center;
+    margin: auto;
+}
+
+span {
+    font-size: 4em;
+}
+
+.postagens {
+    border: 2px solid var(--cor04);
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: var(--cor06);
+}
+
+.postagens h1 {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: rgb(52, 52, 209);
+}
+
+.postagens h1:hover {
+    color: var(--cor02);
+    text-decoration: underline;
+}
+
+.postagens img {
+    width: 20px;
+    padding-top: 5px;
+}
