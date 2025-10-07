@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+:root {
+    --fonte-padrao: 'DynaPuff', system-ui;
+    --cor01: #d82727;
+    --cor02: #0f830f;
+    --cor03: rgb(37, 95, 37);
+    --cor04: rgb(155, 12, 12);
+    --cor05: #dfc9c9d0;
+    --cor06: #f7e9e9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-padrao);
+}
+
+body {
+    background-color: #dfc9c9d0;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 80px;
+    padding: 10px 0px;
+    background-color: var(--cor01);
+    box-shadow: 0px 0px 6px 0px rgb(0, 0, 0);
+}
+
+nav>.forum{
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--cor02);
+}
+
+nav>.forum:hover{
+    font-size: 34px;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--cor02);
+}
+
+nav input {
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: auto;
+    height: 50%;
+    width: 35vw;
+    vertical-align: middle;
+    padding-left: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.575);
+}
+
+nav img {
+    height: 90%;
+    background-color: #f7e9e9;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+header h1 {
+    margin-top: 30px;
+    color: var(--cor01);
+    font-size: 1.6em;
+}
+
+header p {
+    color: #0f830f;
+    font-size: 0.8em;
+}
+
+main {
+    width: 99vw;
+    margin: auto;
+    margin-top: 30px;
+    max-width: 1000px;
+}
+
+
+.receita-img img {
+    max-width: 600px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.432);
+}
+
+section {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.icone img{
+    max-width: 20px;
+}
+
+.legenda {
+    display: flex;
+    gap: 5px;
+}
+
+.ingredientes {
+    margin-top: 50px;
+}
+
+.h2preparo {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2em;
+    color: var(--cor03);
+}
+
+h3 {
+    color: var(--cor01);
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.2em;
+    margin-bottom: 60px;
+}
+
+ul li::before {
+    content: "->  ";
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.2em;
+    margin-bottom: 60px;
+    padding-left: 20px;
+}
+
+#dicas {
+    margin-bottom: 10px;
+    text-align: center;
+    color: var(--cor03);
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+main p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
