@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+:root {
+    --fonte-padrao: 'DynaPuff', system-ui;
+    --cor01: #d82727;
+    --cor02: #0f830f;
+    --cor03: rgb(37, 95, 37);
+    --cor04: rgb(155, 12, 12);
+    --cor05: #dfc9c9d0;
+    --cor06:  #ffffffb7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-padrao);
+}
+
+body {
+    background-color: #dfc9c9d0;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 80px;
+    padding: 10px 0px;
+    background-color: var(--cor06);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 6px 0px rgb(0, 0, 0);
+}
+
+nav>.forum{
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--cor02);
+}
+
+nav>.forum:hover{
+    font-size: 34px;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--cor02);
+}
+
+nav input {
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: auto;
+    height: 50%;
+    width: 35vw;
+    vertical-align: middle;
+    padding-left: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.575);
+}
+
+nav img {
+    height: 90%;
+    background-color: #f7e9e9;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+header h1 {
+    margin-top: 30px;
+    color: var(--cor01);
+}
+
+header p {
+    color: #0f830f;
+}
+
+main{
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 300px;
+    height: 29px;
+    border-radius: 20px;
+}
+
+.container-cadastro-receita {
+    padding: 50px 240px 600px 50px;
+    background-color:#dd2727;
+    border-radius: 20px;
+    text-align: left;
+}
+
+#descricao {
+    text-align: start;
+    padding: 0px 3px 170px 0px;
+}
+
+#hora-preparo, #minuto-preparo {
+    margin-top: 10px;
+    font-size: 1.1em;
+    max-width: 35px;
+    padding: 10px;
+}
