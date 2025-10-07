@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
 
 :root {
@@ -80,73 +79,93 @@ nav img {
 header h1 {
     margin-top: 30px;
     color: var(--cor01);
+    font-size: 1.6em;
 }
 
 header p {
     color: #0f830f;
+    font-size: 0.8em;
 }
 
 main {
-    width: 100%;
-    max-width: 1200px;
+    width: 99vw;
     margin: auto;
+    margin-top: 30px;
+    max-width: 1000px;
 }
 
 
-.item {
-    background-color: var(--cor06);
-    margin: auto;
-    width: 90%;
-    margin-bottom: 50px;
-    height: auto;
-    border: 3px solid var(--cor03);
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px 4px rgba(0, 0, 0, 0.295);
-    padding: 10px;
-
+.receita-img img {
+    max-width: 600px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.432);
 }
 
-.item h1 {
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-
-.item h1:hover {
-    text-decoration: underline;
-}
-
-.item h1:active {
-    font-size: 29px;
-    color: var(--cor04);
-}
-
-.item a {
-    text-decoration: none;
-    color: rgb(52, 52, 209)
-}
-
-.item a:hover {
-    text-decoration: underline;
-}
-
-.imagem-e-texto {
+section {
+    font-size: 15px;
     display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
-.descricao {
-    display: block;
-    font-size: 20px;
+.icone img{
+    max-width: 20px;
 }
 
-.imagem-e-texto img {
-    aspect-ratio: 5 / 4;
-    margin: 0px 50px 0px 0px;
-    width: 200px;
-    border-radius: 5px;
+.legenda {
+    display: flex;
+    gap: 5px;
 }
 
-.descricao img {
-    width: 100%;
-    max-width: 40px;
-    margin-top: 10px;
+.ingredientes {
+    margin-top: 50px;
 }
+
+.h2preparo {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2em;
+    color: var(--cor03);
+}
+
+h3 {
+    color: var(--cor01);
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.2em;
+    margin-bottom: 60px;
+}
+
+ul li::before {
+    content: "->  ";
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.2em;
+    margin-bottom: 60px;
+    padding-left: 20px;
+}
+
+#dicas {
+    margin-bottom: 10px;
+    text-align: center;
+    color: var(--cor03);
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+main p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
