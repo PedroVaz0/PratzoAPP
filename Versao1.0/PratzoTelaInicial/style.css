@@ -138,12 +138,10 @@ main {
     font-size: 20px;
 }
 
-.imagem-e-texto > img {
-    width: 100%;
+.imagem-e-texto img {
     aspect-ratio: 5 / 4;
-    margin: 0px 50px 10px 0px;
-    max-width: 200px;
-    border: 1px solid black;
+    margin: 0px 50px 0px 0px;
+    width: 200px;
     border-radius: 5px;
 }
 
