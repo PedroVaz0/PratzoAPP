@@ -45,7 +45,8 @@ nav {
 
 nav a{
     text-decoration: none;
-    padding-bottom: 10px;
+    padding-bottom: 24px;
+    padding-left: 20px;
 }
 
 nav .logo{
