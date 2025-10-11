@@ -3,114 +3,124 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratzo - Feed</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Pratzo Cardapio</title>
+    <link rel="stylesheet" />
   </head>
 
   <body>
-    <header>
-      <nav>
-        <p class="logo">Pratzo</p>
+    <header class="barra">
+      <div class="lado-esquerdo">
+        <h1 class="logo">Pratzo</h1>
+      </div>
+
+      <div class="meio">
         <input
           type="text"
-          placeholder="Procure receitas, chesfs ou tags..."
-          class="caixa"
+          placeholder="Procure receitas, chefs ou tags..."
+          class="pesquisa"
         />
-        <a href="../PrototipoForum/forum.html" class="forum">Forum</a>
-        <a href="../Profile/profile.html">
-          <img src="imagens/perfil.png" alt="ícone de perfil" />
+      </div>
+
+      <div class="lado-direito">
+        <a href="../PrototipoForum/forum.html" class="link">Fórum</a>
+        <a href="../Profile/profile.html" class="perfil">
+          <img src="imagens/perfil.png" alt="Perfil" />
         </a>
-      </nav>
-      <h1>Pratzo</h1>
-      <p>Todos os tipos de receita para você</p>
+      </div>
     </header>
 
-    <main>
-      <section class="receitas">
-        <a href="../Receitas/rec-lasanha.html">
-          <div class="item">
-            <img src="imagens/perfil.png" alt="Foto de perfil" / class="perfil">
-            <div class="descricao">
-              <a href="#">Chef Vittorio</a>
-              <p>Lasanha bolanhesa • 1h30</p>
-            </div>
-            
-            <div class="imagem-e-texto">
-              <img src="imagens/lasanha.jpg" alt="lasanha bolanhesa" />
-              <div class="descricao">
-                <p>Dietas e restrições: Sem glúten</p><br>
-                <p>Tipo: Salgado</p><br>
-                <img src="imagens/estrela.png" alt="estrelas" />
-                <img src="imagens/estrela.png" alt="estrelas" />
-                <img src="imagens/estrela.png" alt="estrelas" />
-                <img src="imagens/estrela.png" alt="estrelas" />
-                <img src="imagens/estrela.png" alt="estrelas" />
-              </div>
-            </div>
+    <main class="feed">
+      <section class="publicacao">
+        <div class="cabecalho-publicacao">
+          <img
+            src="imagens/perfil.png"
+            alt="Chef Vittorio"
+            class="foto-perfil"
+          />
+          <div>
+            <h2>Chef Vittorio</h2>
+            <p>Lasanha bolonhesa • 30-45 min</p>
           </div>
-        </a>
+        </div>
 
-        <a href="../Receitas/rec-cannoli.html">
-          <div class="item">
-            <h1>Cannoli de ricota</h1>
-            <div class="imagem-e-texto">
-              <img src="imagens/cannoli.jpg" alt="cannoli" />
-              <div class="descricao">
-                <p>Por: <a href="#">Chef Robson</a></p>
-                <p>Tempo de preparo: 2 horas</p>
-                <p>Dietas e restrições:</p>
-                <p>Tipo: Doce</p>
-                <img src="imagens/estrela.png" alt="estrelas" />
-                <img src="imagens/estrela.png" alt="estrelas" />
-                <img src="imagens/estrela.png" alt="estrelas" />
-                <img src="imagens/estrela.png" alt="estrelas" />
-                <img src="imagens/estrela.png" alt="estrelas" />
-              </div>
-            </div>
-          </div>
-        </a>
+        <img
+          src="imagens/lasanha.jpg"
+          alt="Lasanha bolonhesa"
+          class="imagem-publicacao"
+        />
 
-        <a href="">
-          <div class="item">
-            <h1>Panqueca de banana com canela</h1>
-            <div class="imagem-e-texto">
-              <img src="imagens/panqueca.jpg" alt="panqueca" />
-              <div class="descricao">
-                <p>Por: <a href="#">Chef Gisele</a></p>
-                <p>Tempo de preparo: 15 minutos</p>
-                <p>Dietas e restrições: Sem lactose e Sem glúten</p>
-                <p>Tipo: Doce</p>
-                <img src="imagens/estrela.png" alt="estrelas" />
-                <img src="imagens/estrela.png" alt="estrelas" />
-                <img src="imagens/estrela.png" alt="estrelas" />
-                <img src="imagens/estrela.png" alt="estrelas" />
-              </div>
-            </div>
+        <div class="info-publicacao">
+          <p><strong>Tipo:</strong> Salgado</p>
+          <p><strong>Dietas:</strong> Sem glúten</p>
+          <div class="avaliacao">
+            <img src="imagens/estrela.png" alt="estrela" />
+            <img src="imagens/estrela.png" alt="estrela" />
+            <img src="imagens/estrela.png" alt="estrela" />
+            <img src="imagens/estrela.png" alt="estrela" />
+            <img src="imagens/estrela.png" alt="estrela" />
           </div>
-        </a>
+        </div>
+      </section>
 
-        <a href="">
-          <div class="item">
-            <h1>Bolo de cenoura com cobertura de chocolate</h1>
-            <div class="imagem-e-texto">
-              <img src="imagens/bolo-de-cenoura.jpg" alt="Bolo de cenoura" />
-              <div class="descricao">
-                <p>Por: <a href="#">Chef Maria Helena</a></p>
-                <p>Tempo de preparo: 40 minutos</p>
-                <p>Dietas e restrições: Sem lactose</p>
-                <p>Tipo: Doce</p>
-                <img src="imagens/estrela.png" alt="estrelas" />
-                <img src="imagens/estrela.png" alt="estrelas" />
-                <img src="imagens/estrela.png" alt="estrelas" />
-                <img src="imagens/estrela.png" alt="estrelas" />
-                <img src="imagens/estrela.png" alt="estrelas" />
-              </div>
-            </div>
+      <section class="publicacao">
+        <div class="cabecalho-publicacao">
+          <img src="imagens/perfil.png" alt="Chef Robson" class="foto-perfil" />
+          <div>
+            <h2>Chef Robson</h2>
+            <p>Cannoli de ricota • 1 hora</p>
           </div>
-        </a>
+        </div>
+
+        <img
+          src="imagens/cannoli.jpg"
+          alt="Cannoli"
+          class="imagem-publicacao"
+        />
+
+        <div class="info-publicacao">
+          <p><strong>Tipo:</strong> Doce</p>
+          <p><strong>Dietas:</strong> -</p>
+          <div class="avaliacao">
+            <img src="imagens/estrela.png" alt="estrela" />
+            <img src="imagens/estrela.png" alt="estrela" />
+            <img src="imagens/estrela.png" alt="estrela" />
+            <img src="imagens/estrela.png" alt="estrela" />
+            <img src="imagens/estrela.png" alt="estrela" />
+          </div>
+        </div>
+      </section>
+
+      <section class="publicacao">
+        <div class="cabecalho-publicacao">
+          <img src="imagens/perfil.png" alt="Chef Gisele" class="foto-perfil" />
+          <div>
+            <h2>Chef Gisele</h2>
+            <p>Panqueca de banana e canela • 15 min</p>
+          </div>
+        </div>
+
+        <img
+          src="imagens/panqueca.jpg"
+          alt="Panqueca"
+          class="imagem-publicacao"
+        />
+
+        <div class="info-publicacao">
+          <p><strong>Tipo:</strong> Doce</p>
+          <p><strong>Dietas:</strong> Sem lactose, sem glúten</p>
+          <div class="avaliacao">
+            <img src="imagens/estrela.png" alt="estrela" />
+            <img src="imagens/estrela.png" alt="estrela" />
+            <img src="imagens/estrela.png" alt="estrela" />
+            <img src="imagens/estrela.png" alt="estrela" />
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="rodape">
+      <p>© 2025 Pratzo — Todos os direitos reservados.</p>
+    </footer>
   </body>
 </html>
