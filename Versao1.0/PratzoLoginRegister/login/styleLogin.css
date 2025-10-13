@@ -4,7 +4,7 @@
   --vermelho: #d82727;
   --verde: #0f830f;
   --fundo: #dfc9c9d0;
-  --cartao: #f7e9e9;
+  --cartao: #f7e9e9b4;
   --texto: #222;
   --subtexto: #444;
   --borda: #c8b3b3;
@@ -39,7 +39,7 @@ h1 {
 }
 
 .bemvindo {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   color: #0f830f;
   font-size: 40px;
 }
@@ -47,15 +47,42 @@ h1 {
 .textLogin {
   font-size: 50px;
   color: #d82727;
-  margin-bottom: 10vh;
+  margin-bottom: vh;
 }
 
 .Main {
   background: var(--cartao);
-  padding: 10vh 0;
+  padding: 5vh 1em;
   width: 100%;
   max-width: 600px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   border: 1px solid var(--borda);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  border-radius: 10px;
+  width: 42em;
+  height: 2.5em;
+  padding: 10px;
+}
+
+.button {
+  margin-top: 2em;
+  border-radius: 10px;
+  width: 10vw;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.button:hover {
+  margin-top: 2em;
+  border-radius: 10px;
+  width: 10vw;
+  font-weight: 600;
+  background-color: var(--verde);
+  transform: scale(1.1);
 }
