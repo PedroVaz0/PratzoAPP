@@ -35,6 +35,20 @@ header {
     gap: 20px;
 }
 
+header a {
+    text-decoration: none;
+    transition: 0.3s ease;
+        color: var(--cor02);
+}
+
+.novo:hover {
+    transform: scale(1.05);
+}
+
+.novo {
+    height: 170px;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -91,6 +105,8 @@ main {
     max-width: 1200px;
     margin: auto;
 }
+
+
 
 .novo {
     display: flex;
