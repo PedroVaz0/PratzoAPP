@@ -31,6 +31,32 @@ header {
     gap: 20px;
 }
 
+header a {
+    text-decoration: none;
+    color: var(--cor02);
+}
+
+.novo {
+    transition: 0.5s ease;
+}
+
+.novo:hover {
+    transform: scale(1.05);
+}
+
+.novo {
+    display: flex;
+    color: var(--cor04);
+    border: 3px solid var(--cor03);
+    border-radius: 30px;
+    width: 230px;
+    align-items: center;
+    margin: auto;
+    height: 150px;
+    width: 180px;
+}
+
+
 nav {
     display: flex;
     position: fixed;
