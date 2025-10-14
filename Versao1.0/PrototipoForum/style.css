@@ -21,6 +21,10 @@ body {
     background-color: #dfc9c9d0;
 }
 
+.logo {
+    font-size: 45px;
+}
+
 header {
     text-align: center;
     font-size: 30px;

@@ -42,21 +42,17 @@ nav {
     box-shadow: 0px 0px 6px 0px rgb(0, 0, 0);
 }
 
-nav>.forum{
+nav .forum{
     margin-top: 15px;
     margin-left: 10px;
     padding: 10px;
     text-decoration: none;
     color: var(--cor02);
+    transition: ease 0.2s;
 }
 
-nav>.forum:hover{
-    font-size: 34px;
-    margin-top: 15px;
-    margin-left: 10px;
-    padding: 10px;
-    text-decoration: none;
-    color: var(--cor02);
+nav .forum:hover{
+    transform: scale(1.1);
 }
 
 nav input {
@@ -115,10 +111,6 @@ main {
     text-decoration: underline;
 }
 
-.item h1:active {
-    font-size: 29px;
-    color: var(--cor04);
-}
 
 .item a {
     text-decoration: none;

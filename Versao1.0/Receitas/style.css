@@ -4,8 +4,8 @@
     --fonte-padrao: 'DynaPuff', system-ui;
     --cor01: #d82727;
     --cor02: #0f830f;
-    --cor03: rgb(37, 95, 37);
-    --cor04: rgb(155, 12, 12);
+    --cor03: #255f25;
+    --cor04: #9b0c0c;
     --cor05: #dfc9c9d0;
     --cor06: #f7e9e9;
 }
@@ -20,6 +20,17 @@ body {
     background-color: #dfc9c9d0;
 }
 
+.logo {
+    display: flex;
+    margin: 15px 0px 0px 40px;
+    font-size: 45px;
+}
+
+nav .logo{
+    color: var(--cor06);
+    text-decoration: none;
+}
+
 header {
     text-align: center;
     font-size: 30px;
@@ -27,6 +38,10 @@ header {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+header a {
+    text-decoration: none;
 }
 
 nav {
@@ -50,7 +65,6 @@ nav>.forum{
 }
 
 nav>.forum:hover{
-    font-size: 34px;
     margin-top: 15px;
     margin-left: 10px;
     padding: 10px;
